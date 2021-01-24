@@ -1,0 +1,43 @@
+.jumbotron__image {
+    position: relative;
+    padding: 0;
+    background: url(../../img/jumbotron.jpg) fixed;
+    height: 80vh;
+}
+
+.jumbotron__image div {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #FFF;
+    padding: 3rem;
+    max-width: 500px;
+}
+
+.jumbotron__image div * {
+    margin: 1rem 0;
+}
+
+.jumbotron__image p {
+    margin: 2rem 0;
+}
+
+.jumbotron__image .button {
+    color: #FFF;
+    background-color: var(--maroon);
+}
+
+.jumbotron__image .button:hover {
+    color: #000;
+    background-color: var(--beige);
+}
+
+@media (max-width: 992px) {
+
+    .jumbotron__image div {
+        right: 0;
+        bottom: 0;
+        max-width: 100%;
+    }
+}

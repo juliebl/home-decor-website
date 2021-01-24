@@ -1,0 +1,8 @@
+.categories__row div {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.button--full-width:hover {
+    background-color: var(--beige);
+}

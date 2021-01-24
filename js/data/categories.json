@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Pillows",
+        "img": "img/categories/pillows.jpg"
+    },
+    {
+        "name": "Rugs",
+        "img": "img/categories/floor_rug.jpg"
+    },
+    {
+        "name": "Vases",
+        "img": "img/categories/vases.jpg"
+    },
+    {
+        "name": "Storage",
+        "img": "img/categories/storage.jpg"
+    },
+    {
+        "name": "Dining",
+        "img": "img/categories/dining.jpg"
+    },
+    {
+        "name": "Lighting",
+        "img": "img/categories/lighting.jpg"
+    }
+]

@@ -1,0 +1,63 @@
+:root {
+    --maroon: rgb(89, 64, 76);
+    --gray: rgb(123, 132, 140);
+    --green: rgb(180, 217, 203);
+    --yellow: rgb(231, 220, 152);
+    --beige: rgb(237, 233, 225);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(../img/pattern2.png);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: lighten;
+    background-size: 200px 200px;
+}
+
+section,
+footer {
+    margin-top: 150px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.button {
+    padding: 0.5rem 3rem;
+    border-radius: 0;
+    transition: .2s ease-in-out;
+    border-radius: 4px;
+    color: #FFF;
+    background-color: var(--maroon);
+}
+
+.button:hover {
+    color: #000;
+    background-color: var(--beige);
+    text-decoration: none;
+}
+
+.button--full-width {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 95%;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 95%;
+    }
+}

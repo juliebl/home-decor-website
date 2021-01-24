@@ -1,0 +1,103 @@
+.carousel {
+    position: relative;
+    margin-top: -60px;
+    height: 100vh;
+}
+
+.jumbotron {
+    padding: 0;
+    border-radius: 0 !important;
+}
+
+.carousel-item {
+    height: 100vh;
+    width: 100%;
+}
+
+.scroll-down {
+    width: 100%;
+    font-size: 3rem;
+    color: rgba(255, 255, 255, 0.8);
+    height: 50px;
+    padding: 70px;
+    bottom: 10px;
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+}
+
+.scroll-down:hover {
+    color: #FFF;
+}
+
+.carousel-indicators {
+    display: none;
+    bottom: 20px;
+}
+
+.carousel-indicators li {
+    border: none;
+    border-radius: 25px;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    right: 25%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    text-align: left;
+}
+
+.carousel-caption div {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3rem 5rem;
+    margin-top: 150px;
+}
+
+.carousel__main {
+    right: 20%;
+    left: 20%;
+}
+
+.carousel__main__caption {
+    background-color: rgba(255, 255, 255, 0) !important;
+    padding: 3rem 5rem;
+    margin-top: 150px;
+}
+
+.carousel-caption div * {
+    margin-bottom: 3rem;
+}
+
+.button--cta {
+    background-color: var(--maroon);
+    color: #FFF;
+    border: none;
+}
+
+.button--cta:hover {
+    background-color: var(--beige);
+}
+
+@media (max-width: 992px) {
+    .carousel-caption div {
+        padding: 2rem;
+    }
+
+    .carousel-caption {
+        right: 5%;
+        left: 5%;
+    }
+
+}

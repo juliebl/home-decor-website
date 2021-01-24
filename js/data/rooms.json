@@ -1,0 +1,50 @@
+[{
+        "name": "Living room",
+        "class": "room__living",
+        "img": "img/masonry/livingroom.jpg",
+        "description": "This is where a lot of us spend most of our free time, so naturally it's important to feel comfortable here.",
+        "products": ["Tables", "Lamps", "Floor rugs", "Curtains"]
+    },
+    {
+        "name": "Kids room",
+        "class": "room__kids",
+        "img": "img/masonry/kidsroom.jpg",
+        "description": "Even kids' rooms can look stylish! Declutter with our storage boxes and find a look that your kid will love.",
+        "products": ["Toys", "Frames", "Bedsheets", "Furniture"]
+    },
+    {
+        "name": "Kitchen",
+        "class": "room__kitchen",
+        "img": "img/masonry/kitchen.jpg",
+        "description": "We have all your kitchen needs!",
+        "products": ["Utensils", "Tablecloth", "Lighting", "Plates"]
+    },
+    {
+        "name": "Outside",
+        "class": "room__outside",
+        "img": "img/masonry/outside.jpg",
+        "description": "We have a variety of garden furniture, lighting, decor and even gardening tools. Let your garden become your new sanctuary!",
+        "products": ["Furniture", "Plants", "Flooring", "Tools"]
+    },
+    {
+        "name": "Bedroom",
+        "class": "room__bed",
+        "img": "img/masonry/bedroom.jpg",
+        "description": "A bedroom should feel comfortable, cozy and relaxing. We have designs that suit every style with a variety of textiles, small furniture and decor.",
+        "products": ["Pillows", "Bedsheets", "Night tables", "Candles"]
+    },
+    {
+        "name": "Office",
+        "class": "room__office",
+        "img": "img/masonry/office.jpg",
+        "description": "Get inspired and organized with our decor for both corporate offices and home offices.",
+        "products": ["Binders", "Lamps", "Storage", "Office supplies"]
+    },
+    {
+        "name": "Bathroom",
+        "class": "room__bath",
+        "img": "img/masonry/bathroom.jpg",
+        "description": "Turn your bathroom into a refreshing experience with our decor.",
+        "products": ["Towels", "Floor mats", "Soap", "Shower curtains"]
+    }
+]

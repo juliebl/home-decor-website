@@ -1,0 +1,152 @@
+a {
+    color: #000;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.bg-dark,
+.navbar-dark {
+    background-color: var(--maroon) !important;
+}
+
+.breadcrumb__container {
+    padding: 0;
+    max-width: 80%;
+    margin-top: 50px;
+}
+
+.breadcrumb {
+    padding: 0;
+    background: none;
+}
+
+.product__container {
+    max-width: 80%;
+    margin-top: 10px;
+}
+
+.product__image__thumbnails {
+    padding: 0;
+}
+
+.product__image__thumbnails__single {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.product__image__main {
+    width: 100%;
+    object-fit: cover;
+    max-height: 700px;
+}
+
+.product__description {
+    line-height: 2;
+}
+
+.product__dimension {
+    font-weight: 700;
+}
+
+.product__price {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.button--product {
+    background-color: var(--green);
+    color: #000;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 1rem;
+}
+
+.button svg {
+    fill: #000;
+    margin-left: 1rem;
+    transition: .2s ease-in-out;
+    height: 1.4rem;
+}
+
+.product__image__thumbnails__single {
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition: .2s ease-in-out;
+    margin-bottom: 5px;
+    filter: opacity(0.5);
+}
+
+.product__image__thumbnails__single:hover {
+    filter: opacity(1);
+}
+
+.product__image__thumbnails__single--active {
+    filter: opacity(1);
+}
+
+.product__image__main {
+    filter: drop-shadow(10px 10px var(--green));
+
+    transition: .9s ease-in-out;
+}
+
+@media (max-width: 1200px) {
+
+    .product__image__thumbnails,
+    .product__info,
+    .product__image__main__container {
+        padding: 0;
+    }
+
+    .product__info {
+        margin-top: 2rem;
+
+    }
+
+    .product__image__thumbnails {
+        display: flex;
+        max-width: 100% !important;
+        margin-top: 25px;
+    }
+
+    .product__image__thumbnails__single {
+        padding: 0;
+        width: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .product__container,
+    .breadcrumb__container {
+        max-width: 90%;
+        margin-top: 10px;
+    }
+
+    .product__image__main {
+        height: 500px;
+    }
+
+    .product__image__thumbnails__single {
+        padding: 0;
+        width: 15%;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .product__container,
+    .breadcrumb__container {
+        max-width: 85%;
+    }
+
+    .product__image__main {
+        height: 400px;
+    }
+}
